@@ -45,7 +45,7 @@ export default {
           this.zipCity = response.data.city;
         })
         .catch((e) => {
-          alert("Syntax error" + e);
+          alert("Syntax error<br/>" + e);
         });
     }
   }
