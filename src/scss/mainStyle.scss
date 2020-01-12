@@ -1,0 +1,49 @@
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+%all{
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+html{
+    font: normal 1rem sans-serif;
+}
+body{
+    @extend %all;
+    background-color: #a2ef44;
+}
+.zipSec{
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: .3rem;
+    box-shadow: .1rem .2rem .3rem .4rem rgba(0,0,0,.05);
+    margin: 2rem auto;
+    max-width: 100%;
+    text-align: center;
+    h2{
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 1rem 0rem;
+        margin-top: 1rem;
+    }
+    input{
+        display: inline-block;
+        width: 70%;
+        height: 3rem;
+        border-radius: .2rem;
+        border: .2rem solid #ff6d02;
+        padding-left: 1rem;
+        margin: 1rem auto 1rem auto;
+    }
+    span{
+        display: block;
+        padding-bottom: 1rem;
+    }
+}
